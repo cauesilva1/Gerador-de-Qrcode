@@ -67,11 +67,10 @@ export default function Home() {
             <input onChange={qrCodeEncoder2} className={styles.input} type="text" name="ra" id="ra" />
 
           </div>
-          <button 
-          className={styles.button}
-          type="button">
-            Clique na imagem para baixar o QRcode
-          </button>
+          <p 
+          className={styles.buttondownload}>
+            Clique na imagem para o download!!
+          </p>
         </div>
 
     </section>
